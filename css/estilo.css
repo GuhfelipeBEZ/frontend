@@ -1,10 +1,72 @@
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 :root, :root[data-theme='dark'] {
     --primary-color: #d7d7d8;
-    --primary-bg-color: #111217;
+    --primary-bg-color: #223fd4;
+    --secundary-bg-color:#28292E;
+    --primary-boder-color:#000000;
+    --secundary-border-color:#3b2a2a;
+
+
+    --title-color:#f0f0f0;
+    --text-color:#504d4d;
+    --link-color:#f0f0f0;
+    --icon-color:#f0f0f0;
+
+
 }
 :root [data-theme='ligth']{ 
---primary-color: #0b0b0f;
+--primary-color: #000000;
 --primary-bg-color: #e9e9e9;
+--secundary-bg-color:#f0f0f0;
+--primary-border-color:#f0f0f0;
+--secundary-border-color:#f0f0f0;
+   
+--title-color:#f0f0f0;
+--text-color:#f0f0f0;
+--link-color:#f0f0f0;
+--icon-color:#f0f0f0;
+
+
 
 } 
+html [data-theme='ligth'] .brand-logo {
+    filter:invert(1);
+} 
+html [data-theme='ligth'] .tecnologias-logo{
+    filter: invert(80%);
+}
+/*reset do css*/
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-width: var(--secondary-bg-color);
+ } 
+ body {
+    background: var(--primary-bg-color);
+    font-family: 'intes', tahoma, geneva, verdana, sans-serif;
+    color: var(--text-color)
+}
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100% ;
+    padding: 0.5;
+    z-index:2;
+}
+.header-toggle {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+    
+
+
