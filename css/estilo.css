@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 :root, :root[data-theme='dark'] {
     --primary-color: #d7d7d8;
-    --primary-bg-color: #223fd4;
-    --secundary-bg-color:#28292E;
-    --primary-boder-color:#000000;
+    --primary-bg-color: #000000;
+    --secundary-bg-color:#000000;
+    --primary-boder-color:#270d0d;
     --secundary-border-color:#3b2a2a;
 
 
@@ -56,7 +56,7 @@ html [data-theme='ligth'] .tecnologias-logo{
     justify-content: space-between;
     align-items: center;
     width:100% ;
-    padding: 0.5;
+    padding: 0.5rem 1rem;
     z-index:2;
 }
 .header-toggle {
@@ -64,6 +64,13 @@ html [data-theme='ligth'] .tecnologias-logo{
     justify-content: flex-end;
 
 }
+.header-logo .logo {
+    width: 3.25rem;
+    height: 3.25rem;
+
+}
+
+
 
 
 
