@@ -10,7 +10,7 @@
     --title-color:#f0f0f0;
     --text-color:#504d4d;
     --link-color:#f0f0f0;
-    --icon-color:#f0f0f0;
+    --icon-color:#0ec229;
 
 
 }
@@ -24,7 +24,7 @@
 --title-color:#f0f0f0;
 --text-color:#f0f0f0;
 --link-color:#f0f0f0;
---icon-color:#f0f0f0;
+--icon-color:#1dce0a;
 
 
 
@@ -67,13 +67,51 @@ html [data-theme='ligth'] .tecnologias-logo{
 .header-logo .logo {
     width: 3.25rem;
     height: 3.25rem;
-
+    
+}
+#toggletheme {
+    font-size: 1.5rem;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: ease-in-out ,4s;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background: var(--primary-bg-color);
+}
+.menu-iten{
+    width: 100%;
+}
+.menu-link{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.menu-mobile {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    border-top: 1px solid var(--primary-boder-color);
+}
+.menu-mobile .menu-link {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 1rem;
 }
 
+.menu-link.active .menu-icon,
+.menulink.active .menu-text
+.menu-link:hover .menu-icon
+.menu-link:hover .menu-text {
+    color: var(--primary-color);
+}
 
+.menu-icon, .menu-text {
+    color: var(--text-color);
 
-
-
-    
-
-
+}
+.menu-icon {
+    font-size: 1.5rem;
+}
