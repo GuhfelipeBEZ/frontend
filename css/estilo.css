@@ -10,7 +10,7 @@
     --title-color:#f0f0f0;
     --text-color:#504d4d;
     --link-color:#f0f0f0;
-    --icon-color:#0ec229;
+    --icon-color:#f9f9f9;
 
 
 }
@@ -24,7 +24,7 @@
 --title-color:#f0f0f0;
 --text-color:#f0f0f0;
 --link-color:#f0f0f0;
---icon-color:#1dce0a;
+--icon-color:#f8f4f4;
 
 
 
@@ -50,6 +50,51 @@ html [data-theme='ligth'] .tecnologias-logo{
     font-family: 'intes', tahoma, geneva, verdana, sans-serif;
     color: var(--text-color)
 }
+    a{text-decoration: none;
+        color: var(--text-color);
+ }
+
+    a:hover{
+        color: var(--primary-color);
+    }
+    i {
+        color: var(--icon-color);
+    }
+    b {
+        font-weight: 400;
+    }
+    h1 { 
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+    }
+    h3 {
+        font-size: 1,55rem;
+        text-align: left;
+    }
+    h4 {
+        color: var(--primary-color);
+        font-weight: 400;
+        font-size: 1.15;
+        text-align: left;
+    }
+    h1,h2,h3{
+        font-family: 'league spartan', tahoma, geneva, verdana, sans-serif;
+        text-transform: uppercase;
+        color: var(--title-color);
+        font-weight: 200;
+
+    }
+    p, span, li {
+        font-size: 1rem;
+    }
+    p {
+        text-align: justify;
+    }
+    
 #header{
     display: flex;
     flex-flow: row wrap;
@@ -79,6 +124,7 @@ html [data-theme='ligth'] .tecnologias-logo{
     display: flex;
     align-items: center;
     background: var(--primary-bg-color);
+    gap: 1rem;
 }
 .menu-iten{
     width: 100%;
@@ -114,4 +160,31 @@ html [data-theme='ligth'] .tecnologias-logo{
 }
 .menu-icon {
     font-size: 1.5rem;
+}
+.menu-text{
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+.header-nav {      /* menu pc */
+display: none; /* none */
+
+}
+.menu-principal {
+    gap: 1rem;
+}
+.menu-social{
+    gap: 1rem;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 0.875rem 1.5rem;
+    transition: ease-in-out;
+    cursor: pointer;
+    color: var(--primary-color);
 }
