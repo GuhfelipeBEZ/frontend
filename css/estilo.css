@@ -8,7 +8,7 @@
 
 
     --title-color:#f0f0f0;
-    --text-color:#504d4d;
+    --text-color:#41198d;
     --link-color:#f0f0f0;
     --icon-color:#f9f9f9;
 
@@ -167,7 +167,7 @@ html [data-theme='ligth'] .tecnologias-logo{
     text-transform: uppercase;
 }
 .header-nav {      /* menu pc */
-display: none; /* none */
+display: none ; /*tirar o none depois */
 
 }
 .menu-principal {
@@ -242,7 +242,7 @@ display: none; /* none */
     flex-flow: row wrap;
     gap: .5rem;
 }
-.tecnologia-iten{
+.tecnologia-item{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -255,5 +255,70 @@ display: none; /* none */
 .tecnologia-logo{
     height: 2.4rem;
 }
-
-
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.projetos-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-cover {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.card body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.card-title{
+    font-size: 5rem;
+    color: var(--title-color);
+    font-weight: 300;
+}
+.card-descricao {
+    color: var(--title-color);
+}
+.card-lista .sobre-lista{
+    margin-left: 1.25rem;
+}
+.card-item, .sobre-item{
+    list-style: disc;
+}
+.caed-button .card-descricao{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card-button .btn{
+    padding: .65rem 1.25rem;
+}
+.card-button .btn span{
+    font-size: 1rem;
+}
+.card-body .tecnologias-lista{
+    gap: .75rem;
+}
+.card-body .tecnologia-item{
+    width: 4rem;
+    height: 4rem;
+}
+.cardy-body .tecnologia-logo{
+    height: 2rem;
+}
+.projetos .btn {
+    width: auto;
+    margin: auto;
+}
