@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 :root, :root[data-theme='dark'] {
-    --primary-color: #d7d7d8;
+    --primary-color: #f8f4f4;
     --primary-bg-color: #000000;
-    --secundary-bg-color:#494444;
-    --primary-boder-color:#270d0d;
+    --secundary-bg-color:#000000;
+    --primary-boder-color:#000000;
     --secundary-border-color:#3b2a2a;
 
 
-    --title-color:#f0f0f0;
-    --text-color:#41198d;
-    --link-color:#f0f0f0;
+    --title-color:#311ab1;
+    --text-color:#5c23c5;
+    --link-color:#ffffff;
     --icon-color:#f9f9f9;
 
 
