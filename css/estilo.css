@@ -167,7 +167,7 @@ html [data-theme='ligth'] .tecnologias-logo{
     text-transform: uppercase;
 }
 .header-nav {      /* menu pc */
-display: ; /*tirar o none depois */
+display: none ; /*tirar o none depois */
 
 }
 .menu-principal {
