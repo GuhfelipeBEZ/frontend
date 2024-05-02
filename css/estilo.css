@@ -110,8 +110,8 @@ html [data-theme='ligth'] .tecnologias-logo{
 
 }
 .header-logo .logo {
-    width: 3.25rem;
-    height: 3.25rem;
+    width: 100px;
+    height: 100px;
     
 }
 #toggletheme {
@@ -167,7 +167,7 @@ html [data-theme='ligth'] .tecnologias-logo{
     text-transform: uppercase;
 }
 .header-nav {      /* menu pc */
-display: none ; /*tirar o none depois */
+display: ; /*tirar o none depois */
 
 }
 .menu-principal {
