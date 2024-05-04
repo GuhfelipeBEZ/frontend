@@ -143,7 +143,7 @@ html [data-theme='ligth'] .tecnologias-logo{
 }
 .menu-mobile .menu-link { 
     flex-direction: column;
-    position: fixed;/* ativa a barra para o menu inicial */
+    position: none;/* menu mobile*/
     justify-content: center;
     padding: 0.5rem 1rem;
 }
@@ -356,8 +356,8 @@ display: ; /*tirar o none depois */
     gap: 1.5rem;
 }
 .sobre-icones i {
-    font-size: ;
-    color: #02c4ff;
+    font-size: 1.25rem;
+    color: #00b6ee;
 }
 .sobre-content2 .col1,
 .sobre-content2 .col2 {
@@ -416,3 +416,74 @@ display: ; /*tirar o none depois */
     transform: rotate(180deg);
 }
 /* contato */ 
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: var(--primary-boder-color);
+    border-bottom: var(--secundary-border-color);
+}
+.contato p {
+    text-align: center;
+}
+.contato .btn {
+    width: auto;
+}
+.contato .email {
+    text-transform: uppercase ;
+}
+/* roda pé */
+footer {
+    margin-bottom: 5rem;
+}
+.footer p {
+    font-size: .875rem;
+    text-align: center;
+    padding: 1rem;
+}
+/* responsividade*/
+@media (min-width: 768px;) {
+   #header {
+    position: fixed;
+    border-bottom: 1px solid var(--primary-border-color);
+    padding: 1rem 6rem;
+    background: var(--primary-bg-color);
+   }
+   .nav-mobile {
+       display: none;
+   }
+   .header-nav {
+    display: flex;
+   }
+   .header-nav,
+   .header-toggle {
+    min-width: 30%;
+   }
+   h1 {
+    font-size: 5rem;
+   }
+   h2 {
+    font-size: 3rem;
+   }
+   #home, .projetos, .sobre {
+    padding: 8rem 6rem 4rem 6rem;
+   }
+   .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .tecnologias {
+    padding: 6.25rem 6rem 2rem 6rem;
+    margin-top: -6rem;
+   }
+
+   .contato {
+    padding: 6rem;
+   }
+   .contato p {
+    width: 80%;
+   }
+}
