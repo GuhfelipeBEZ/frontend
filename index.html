@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gustavo felipa | portfolio</title>
+    <link rel="shortcut icon" href="img/favicon.ico"><!-- codigo do icone do navegador -->    
 <!-- tag title -->
  <link rel="stylesheet" href="css/estilo.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&
  family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
@@ -21,7 +19,7 @@
         <ul class="menu menu-principal">
             <li class="menu-iten">
                 <a href="#home" class="menu-link active">
-                    <span class="menu-text"> home </span>  
+                    <span class="menu-text"> Home </span>  
                 </a>
             </li>
             <li class="menu-iten">
@@ -46,17 +44,16 @@
 
     </nav>
     <div class="header-logo">
-<a href="pagina inicial">
+<a href="#home">
     <img src="img/avatar-logo.png" alt="" class="logo">
 </a>
     </div>
     <div class="header-toggle">
-        <i id="toggletheme" class="bi bi-sun"></i>
-        
+        <i id="toggleTheme" class="bi bi-sun"></i>
     </div>
     </header>
     <!-- fim cabeçalho -->
-<!-- menu mobile -->
+    <!-- menu mobile -->
     <nav class="nav-mobile">
         <ul class="menu menu-mobile">
             <li class="menu-iten">
@@ -90,14 +87,14 @@
                 </a>
                 
             </li>
-         </nav>
+        </ul>
+     </nav>
             <!-- fim menu mobile -->
             <main id="home">
             <div class="main-contemt">
                 <h1> <b> soluções criativas &  </b> dev front End. </h1>
-                <p>gustavo felipe, são paulo-SP, cursando gestão empresarial
+                <p>gustavo felipe, são paulo-SP, cursando gestão empresarial</p>
 
-                </p>
                 <ul class="menu menu-social">
 
                     <li>
@@ -112,8 +109,6 @@
     
                 
                             </a>
-
-
                     </li>
                     <li>
                         <a href="https://www.instagram.com/guh_felipe546/" target="_blank"> 
@@ -121,9 +116,7 @@
 
             
                         </a>
-                </li>
-
-
+                    </li>
                 </ul>
                 <a href="#projetos">
                     <button class="btn btn-primary">
@@ -135,7 +128,8 @@
             </div><!-- fim main-content -->
 
         <div class="video">
-            <iframe  src="https://www.youtube.com/embed/5jC0i0EqFlI" title="Eu indo viajar e o Google me entende" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/5jC0i0EqFlI" title="Eu indo viajar e o Google me entende" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </div>
          </main>
 
@@ -161,7 +155,7 @@
             </ul>
          </section><!-- tecnologias finalizado -->
         
-         <section id="projetos" class="projetos">
+         <section id="projeto" class="projetos">
             <h2>projetos</h2>
             <div class="projetos-container">
                 <div class="projetos-card">
@@ -207,15 +201,17 @@
                                             <span> repositorio </span>
                                         </a>
                                         </button>
-                                </div>
-
+                                </div><!-- card button -->
+                                
                          </div><!--card body -->
-                </div><!--fim projetos-card -->
+                        </div><!-- fim card projetos -->
+                </div><!--fim projetos container -->
+                </section><!-- fim projetos -->
 
-                <div class="projeto-card card-reverse">
+                <div class="projeto-card">
                     <img class="card-cover" src="img/projetos/portfolio.PNG" alt="">
                         <div class="card-body">
-                            <h3 class="card-title"> Portifolio Pessoal</h3>
+                            <h3 class="card-title"> Portifolio Pessoal </h3>
                                 <p class="card-descricao"> a história por trás do meu portifolio. </p>
                                 <ul class="card-lista">
                                     <li class="card-item">
@@ -255,8 +251,10 @@
                                             <span> repositorio </span>
                                         </a>
                                         </button>
-
-                                        <div class="projetos-card card-reverse">
+                                </div>
+                                </div>
+                                </div>
+                                        <div class="projetos-card">
                                             <img class="card-cover" src="img/projetos/games-store.jpg" alt="">
                                                 <div class="card-body">
                                                     <h3 class="card-title"> games story</h3>
@@ -310,8 +308,8 @@
                     <button class="btn btn-primary">
                         <span> ver todos os projetos </span>
                         <i class="bi bi-arrow-up-right"> </i>
-                    </button>
-                    </a>
+                     </a>
+                   </button>
                    
                 </div><!--fim -->
 
@@ -319,7 +317,7 @@
             </div>
          </section><!-- fim projetos -->
 
-         <section id="#sobre" class="sobre">
+         <section id="sobre" class="sobre">
 
             <div class="sobre-content1">
                 <img class="sobre-logo" src="img/avatar-logo.png" alt="" > 
@@ -337,8 +335,8 @@
                         <button class="btn btn-primary">
                             <span> conecte-se comigo </span>
                             <i class="bi bi-arrow-down-right"> </i>
-                        </button>
-                    </a>
+                        </a>
+                    </button>
                 </div>
                  </div><!-- fim descricao -->
                
@@ -354,22 +352,22 @@
 
                         <div class="sobre-icones">
                             <i class="bi bi-bank"></i>
-                            <span> CATE </span><br>
+                            <span> CATE </span>
                         </div>
                         <div class="sobre-icones">
                             <i class="bi bi-mortarboard"> </i>
-                            <span> certificado de assistente administrativo </span><br><br>
+                            <span> certificado de assistente administrativo </span>
                         </div>
                         <i class="bi bi-bank"></i>
-                        <span> UNCSUL </span><br>
+                        <span> UNCSUL </span>
                             <i class="bi bi-award"> </i>
-                            <span> Pós Graduação</span><br><br>
+                            <span> Pós Graduação</span>
                         <!-- tag br= a quebra de linha -->
 
                             <i class="bi bi-bank"></i>
-                            <span> UNCSUL </span><br>
+                            <span> UNCSUL </span>
                             <i class="bi bi-patch-check"></i>
-                            <span> Pós Graduação</span><br><br>
+                            <span> Pós Graduação</span>
                         </div>
 
                         <i class="bi bi-bank"></i>
@@ -381,67 +379,73 @@
                     </div><!-- fim row1 -->
 
                     <div class="row2">
-                        <h3> experiências </h3>
-
-                        <h4> intrutor </h4>
-                        <span> senai. agosto 2012 - atualmente </span>
-                        <span> instrutor de treinamentos e cursos,etc</span>
-
+                        <h3> Experiências </h3>
+                        
+                        <h4> Instrutor </h4>
+                        <span> Senai. Agosto 2012 - Atualmente. </span>
+                        <span> Instrutor de treinamentos e cursos, etc </span>
+    
                         <ul class="sobre-lista">
-                            <li class="sobre item"> aulas presenciais </li> <!--MUDAR AS DUAS LISTAS DEPOIs-->
-                            <li class="sobre-item"> aulas EAD </li>
+                            <li class="sobre-item"> Aulas presenciais </li>
+                            <li class="sobre-item"> Aulas EAD </li>
                         </ul>
+    
                     </div>
-
-                </div><!-- fim col1 -->
-                <div class="col2"><!-- col2 -->
-
-                    <h3> certificados </h3> ,<br><!-- mudar os certificados -->
-                    <div class="accordion-item active">
-
-                        <button class="accordion-header start">
-                            <span>desenvolvedor frontend  </span>
-                            <i class="bi bi-caret-down-fill"></i> 
-                        </button>
-                            
+                    
+                </div>  <!-- col 1 --> 
+    
+                <div class="col2">
+                    
+                    <h3> Cursos </h3>
+                    <div class="accordion">
+    
+                        <div class="accordion-item active">
+    
+                            <button class="accordion-header start">
+                                <span> Desenvolvimento Front-End com Angular </span>
+                                <i class="bi bi-caret-down-fill"> </i>
+                            </button>
+    
                             <div class="accordion-body">
-                                <p>digital innovation One. 68H.</p>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum libero dolore eligendi eos numquam. Velit odit eveniet voluptas? Sapiente illum recusandae nam expedita et adipisci hic deleniti odit fugit! </p>
-                            </div>
-                    </div><!-- fim do accordion-->
-                     
-                    <div class="accordion-item">
-
-                        <button class="accordion-header end">
-                            <span> google cloud </span>
-                            <i class="bi bi-caret-down-fill"></i> 
-                        </button>
-                            
+                                <p> Digital Innovation One. 68H. </p>
+                                <p> Desenvolvimento Front End com Angular e desenvolver habilidades práticas para construir aplicações web modernas e responsivas, enquanto treina recursos de Inteligência Artificial para se tornar um desenvolvedor completo.  </p>
+                            </div>              
+                        </div>
+    
+                        <div class="accordion-item">
+    
+                            <button class="accordion-header">
+                                <span> Google Cloud Engineer </span>
+                                <i class="bi bi-caret-down-fill"> </i>
+                            </button>
+    
+                            <div class="accordion-body">
+                                <p> Senai. Fev 2024. 40H. </p>
+                                <p> Com a certificação Associate Cloud Engineer, é possível implantar aplicativos, monitorar operações e gerenciar soluções corporativas. Também é possível usar o Console do Google Cloud e a interface de linha de comando na realização de tarefas comuns baseadas na plataforma para a manutenção de uma ou mais soluções implantadas que usam os serviços gerenciados pelo Google ou autogerenciados no Google Cloud.
+                                </p>
+                            </div>              
+                        </div>
+    
+                        <div class="accordion-item">
+    
+                            <button class="accordion-header end">
+                                <span> Google Cloud Computing Foundations
+                                </span>
+                                <i class="bi bi-caret-down-fill"> </i>
+                            </button>
+    
                             <div class="accordion-body end">
-                                <p>digital innovation One. 68H.</p>
-                                <p> Lorem ipsum dolor sit. </p>
-                            </div>
-                    </div><!-- fim do accordion-->
-
-                    <div class="accordion-item">
-
-                        <button class="accordion-header end">
-                            <span>  assistente administrativo </span>
-                            <i class="bi bi-caret-down-fill"></i> 
-                        </button>
-                            
-                            <div class="accordion-body end">
-                                <p> set-2023 7h </p>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum libero dolore eligendi eos numquam. Velit odit eveniet voluptas? Sapiente illum recusandae nam expedita et adipisci hic deleniti odit fugit! </p>
-                            </div>
-                    </div><!-- fim do accordion-->
-                </div><!-- fim col2 -->
- 
-
-
-            </div><!-- dobre content2-->
- 
-         </section>
+                                <p> Senai. Fev 2024. 40H. </p>
+                                <p> Este curso fornece uma visão geral da computação em nuvem, maneiras de usar o Google Cloud e diferentes opções de computação.
+                                </p>
+                            </div>              
+                        </div>
+                    
+                    </div> <!-- Fim accordion -->
+                </div>  <!-- col 2 -->
+            </div> <!-- sobre-content2 -->
+    
+        </section>
 
          <section id="contato" class="contato">
 
