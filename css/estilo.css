@@ -16,7 +16,7 @@
 }
 :root[data-theme='light']{ 
 --primary-color: #000000;
---primary-bg-color: #fff1f1;
+--primary-bg-color: #b8b2b2;
 --secundary-bg-color:#383b3b;
 --primary-border-color:#f0f0f0;
 --secundary-border-color:#f0f0f0;
@@ -149,7 +149,7 @@ html[data-theme='ligth'] .tecnologias-logo{
 }
 
 .menu-link.active .menu-icon,
-.menulink.active .menu-text,
+.menu-link.active .menu-text,
 .menu-link:hover .menu-icon,
 .menu-link:hover .menu-text {
     color: var(--primary-color);
