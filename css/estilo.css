@@ -22,9 +22,9 @@
 --secundary-border-color:#f0f0f0;
    
 --title-color:#000000;
---text-color:#423d3d;
---link-color:#423d3d;
---icon-color:#423d3d;
+--text-color:#535353;
+--link-color:#000000;
+--icon-color:#444646;
 
 
 
@@ -32,7 +32,7 @@
 html[data-theme='ligth'] .logo {
     filter:invert(1);
 } 
-html[data-theme='ligth'] .tecnologias-logo{
+html[data-theme='ligth'] .tecnologia-logo{
     filter: invert(80%);
 }
 /*reset do css*/
