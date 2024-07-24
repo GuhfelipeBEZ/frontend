@@ -1,500 +1,864 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-theme="dark">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gustavo felipa | portfolio</title>
-    <link rel="shortcut icon" href="img/favicon.ico"><!-- codigo do icone do navegador -->    
-<!-- tag title -->
- <link rel="stylesheet" href="css/estilo.css">
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&
- family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Restaurante - Bezerra</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Arquivos da net CSS  // vendor = fornecedor web -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
 
 </head>
+
 <body>
-    <header id="header"><!-- cabeçalho -->
-     <nav class="header-nav">
-
-        <ul class="menu menu-principal">
-            <li class="menu-item">
-                <a href="#home" class="menu-link active">
-                    <span class="menu-text"> Home </span>  
-                </a>
-            </li>
-            <li class="menu-item">
-                <a href="#projeto" class="menu-link">
-                    <span class="menu-text"> projetos </span>  
-                </a>
-            </li>
-            <li class="menu-item">
-                <a href="#sobre" class="menu-link">
-                    <span class="menu-text"> sobre </span>  
-                </a>
-            </li>
-            <li class="menu-item">
-                <a href="#contato" class="menu-link ">
-                    <span class="menu-text"> contato </span>  
-                </a>
-            </li>
-                
-       </ul>
 
 
+  <!-- barra superior - top bar -->
 
-    </nav>
-    <div class="header-logo">
-<a href="#home">
-    <img src="img/avatar-logo.png" alt="" class="logo">
-</a>
+  <div id="topbar" class="d-flex  align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex  align-items-center">
+        <i class="bi bi-whatsapp d-flex align-items-center">
+          <span> (11) 98765-4321</span>
+        </i>
+
+        <i class="bi bi-clock d-flex align-items-center ms-4">
+          <span>ter-sab: 11am - 23pm</span>
+        </i>
+
+      </div>
+
     </div>
-    <div class="header-toggle">
-        <i id="toggleTheme" class="bi bi-sun"></i>
-    </div>
-    </header>
-    <!-- fim cabeçalho -->
-    <!-- menu mobile -->
-    <nav class="nav-mobile">
-        <ul class="menu menu-mobile">
-            <li class="menu-iten">
-                <a class="menu-link active" href="#home">
-                    <i class="menu-icon bi-house-door"></i>
-                    <span class="menu-text">home</span>
-                </a>
-                
-            </li>
-            
-            <li class="menu-iten">
-                <a class="menu-link" href="#projeto">
-                    <i class="bi bi-window-stack"></i>
-                    <span class="menu-text">projetos</span>
-                </a>
-                
-            </li>
+  </div>
 
-            <li class="menu-iten">
-                <a class="menu-link" href="#sobre">
-                    <i class="menu-icon bi bi-person"></i>
-                    <span class="menu-text">sobre</span>
-                </a>
-                
-            </li>
 
-            <li class="menu-iten">
-                <a class="menu-link" href="#contato">
-                    <i class="menu-icon bi-person-lines-fill"></i>
-                    <span class="menu-text">contato</span>
-                </a>
-                
-            </li>
+  <!-- header -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"> <a href="#"> Bezerra </a>
+      </h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"> home </a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto "> sobre </a>
+          </li>
+          <li>
+            <a href="#menu" class="nav-link scrollto "> cardapio </a>
+          </li>
+          <li>
+            <a href="#especials" class="nav-link scrollto "> especiais </a>
+          </li>
+          <li>
+            <a href="#events" class="nav-link scrollto "> eventos </a>
+          </li>
+          <li>
+            <a href="#chefs" class="nav-link scrollto "> chefes </a>
+          </li>
+          <li>
+            <a href="#contant" class="nav-link scrollto "> contato </a>
+          </li>
         </ul>
-     </nav>
-            <!-- fim menu mobile -->
-            <main id="home">
-            <div class="main-contemt">
-                <h1> <b> soluções criativas &  </b> dev front End. </h1>
-                <p>gustavo felipe, são paulo-SP, cursando gestão empresarial</p>
+        <i class="bi bi-list mobile-nav-toggle"> </i>
+      </nav>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex"> reservas</a>
 
-                <ul class="menu menu-social">
 
-                    <li>
-                        <a href="menu-liunk" target="_blank"> 
-                            <i class="menu-icon bi bi-github"> </i> 
 
-                        </a>
-                    </li>
-                        <li>
-                            <a href="menu-liunk" target="_blank"> 
-                                <i class="menu-icon bi bi-youtube"> </i> 
-    
-                
-                            </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/guh_felipe546/" target="_blank"> 
-                            <i class="menu-icon bi bi-instagram"> </i> 
+    </div>
+  </header><!-- fim header -->
 
-            
-                        </a>
-                    </li>
-                </ul>
-                <a href="#projeto">
-                    <button class="btn btn-primary">
-                        <span> ver projetos </span>
-                        <i class="bi bi-arrow-down-right"></i>
-                    </button>
-                </a>
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relavive text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
 
-            </div><!-- fim main-content -->
+      <div class="row">
+        <div class="col-lg-8">
+          <h1> bem vindo ao <span>Restaurante Bezerra</span> </h1>
+          <h2>entregando boa comida desde 1900 e bolinha </h2>
 
-        <div class="video">
-            <iframe  src="https://www.youtube.com/embed/5jC0i0EqFlI" title="Eu indo viajar e o Google me entende" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">cardapio</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto"> reservas</a>
+          </div>
+        </div> <!-- fim col  -->
+
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relavive" data-aos="zoom-in"
+          data-aos-delay="200">
+
+          <a href="https://youtu.be/o4FL9UwiEjk?si=EFx9hffy49Fh2gjd" class="glightbox play-btn"></a>
+
         </div>
-         </main>
+      </div> <!-- fim row -->
+    </div>
+  </section>
 
-         <section class="tecnologias">
-            <h2> conheicimento nas principais tecnologias do mercado </h2>
-            <ul class="tecnologias-lista">
+  <main id="main">
 
-                <li class="tecnologia-item">
-                    <img class="tecnologia-logo" src="img/tecnologias/HTML5.svg" alt="">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-                </li>
-                <li class="tecnologia-item">
-                    <img class="tecnologia-logo" src="img/tecnologias/Css.svg" alt="">
+        <div class="row">
 
-                </li>
-                <li class="tecnologia-item">
-                    <img class="tecnologia-logo" src="img/tecnologias/Javascript.svg" alt="">
-                    </li>
-                </li>
-                <li class="tecnologia-item">
-                    <img class="tecnologia-logo" src="img/tecnologias/Bootstrap.svg" alt="">
-                    </li>
-            </ul>
-         </section><!-- tecnologias finalizado -->
-        
-         <section id="projeto" class="projetos">
-            <h2>projetos</h2>
-            <div class="projetos-container">
-                <div class="projetos-card">
-                    <img class="card-cover" src="img/projetos/josisbox.jpg" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title"> Josi's box Encommerce </h3>
-                                <p class="card-descricao"> Encommerce de livros </p>
-                                <ul class="card-lista">
-                                    <li class="card-item">
-                                        listagem de favoritoas;
-                                    </li>
-                                    <li class="card-item">
-                                        carrinho decompras;
-                                    </li>
-                                    <li class="card-item">
-                                        filtragem por preço e categoria;
-                                    </li>
-                                </ul>
-                                    <ul class="tecnologias-lista">
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Angular.svg" alt="">
-                                    </li>
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Javascript.svg" alt="">
-                                    </li>
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/HTML5.svg" alt="">
-                                    </li>
-                                    <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Css.svg" alt="">
-                                    </li>
-                                </ul>
-                                <div class="card-button">
-                                    <button class="btn btn-primary">
-                                        <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books" target="_blank"> 
-                                        
-                                        <span>prévia</span>
-                                        <i class="bi bi-arrow-up-right"> </i>
-                                    </a>
-                                    </button>
-                                        <button class="btn">
-                                            <a href="https://github.com/GuhfelipeBEZ/teste-josis" target="_blank">
-                                            <span> repositorio </span>
-                                        </a>
-                                        </button>
-                                </div><!-- card button -->
-                                
-                         </div><!--card body -->
-                        </div><!-- fim card projetos -->
-                </div><!--fim projetos container -->
-                <!-- fim projetos -->
+          <figure class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
 
-                  
-                <div class="projeto-card card-reverse">
-                    <img class="card-cover" src="img/projetos/portfolio.PNG" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title"> Portifolio Pessoal </h3>
-                                <p class="card-descricao"> a história por trás do meu portifolio. </p>
-                                <ul class="card-lista">
-                                    <li class="card-item">
-                                        postagens relacionadas em destaque;
-                                    </li>
-                                    <li class="card-item">
-                                        seção dos projetos;
-                                    </li>
-                                    <li class="card-item">
-                                        biografia do autor;
-                                    </li>
-                                </ul>
-                                    <ul class="tecnologias-lista">
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Angular.svg" alt="">
-                                    </li>
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Javascript.svg" alt="">
-                                    </li>
-                                <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/HTML5.svg" alt="">
-                                    </li>
-                                    <li class="tecnologia-item">
-                                        <img class="tecnologia-logo" src="img/tecnologias/Css.svg" alt="">
-                                    </li>
-                                </ul>
-                                <div class="card-button">
-                                    <button class="btn btn-primary">
-                                        <a href="https://guhfelipebez.github.io/frontend/" target="_blank"> 
-                                        
-                                        <span>prévia</span>
-                                        <i class="bi bi-arrow-up-right"> </i>
-                                    </a>
-                                    </button>
-                                        <button class="btn">
-                                            <a href="https://github.com/GuhfelipeBEZ/frontend" target="_blank">
-                                            <span> repositorio </span>
-                                        </a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div><!-- fim card reverse -->
-
-                        
-                    
-                                        <div class="projetos-card">
-                                            <img class="card-cover" src="img/projetos/games-store.jpg" alt="">
-                                                <div class="card-body">
-                                                    <h3 class="card-title"> games story</h3>
-                                                        <p class="card-descricao"> loja online de games </p>
-                                                        <ul class="card-lista">
-                                                            <li class="card-item">
-                                                                listagem de favoritoas;
-                                                            </li>
-                                                            <li class="card-item">
-                                                                carrinho decompras;
-                                                            </li>
-                                                            <li class="card-item">
-                                                                filtragem por preço e categoria;
-                                                            </li>
-                                                        </ul>
-                                                            <ul class="tecnologias-lista">
-                                                        <li class="tecnologia-item">
-                                                                <img class="tecnologia-logo" src="img/tecnologias/Angular.svg" alt="">
-                                                            </li>
-                                                        <li class="tecnologia-item">
-                                                                <img class="tecnologia-logo" src="img/tecnologias/TypeScript.svg" alt="">
-                                                            </li>
-                                                        <li class="tecnologia-item">
-                                                                <img class="tecnologia-logo" src="img/tecnologias/Bootstrap.svg" alt="">
-                                                            </li>
-                                                            <li class="tecnologia-item">
-                                                                <img class="tecnologia-logo" src="img/tecnologias/Css.svg" alt="">
-                                                            </li>
-                                                        </ul>
-                                                        <div class="card-button">
-                                                            <button class="btn btn-primary">
-                                                                <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books" target="_blank"> 
-                                                                
-                                                                <span>prévia</span>
-                                                                <i class="bi bi-arrow-up-right"> </i>
-                                                            </a>
-                                                            </button>
-                                                                <button class="btn">
-                                                                    <a href="https://github.com/GuhfelipeBEZ/teste-josis" target="_blank">
-                                                                    <span> repositorio </span>
-                                                                </a>
-                                                                </button>
-                                                        </div>
-                                </div>
-
-                         </div><!--card body -->
-                         
-                </div><!--fim projetos-card -->
-            </section><!-- fim projetos -->
-                   <a href="#" target="_blank">
-
-                    <button class="btn btn-primary">
-                        <span> ver todos os projetos </span>
-                        <i class="bi bi-arrow-up-right"> </i>
-                     </a>
-                   </button>
-                   
-                </div><!--fim -->
-
-        
+            <div class="about-img">
+              <img src="img/about.jpg">
             </div>
-         </section><!-- fim projetos -->
 
-         <section id="sobre" class="sobre">
+          </figure>
 
-            <div class="sobre-content1">
-                <img class="sobre-logo" src="img/avatar-logo.png" alt="" > 
-                <div class="sobre-descricao">
-                    <h2> sobre mim </h2>
-                    <p>Gustavo felipe. eu sou um ser humano </p>
-               
-                <div class="sobre-icones">
-                    <i class="bi bi-translate"> </i>
-                    <span>inglês: intermediario</span>
-                </div>
-                <div class="descricao-button">
-                    <a href="https://github.com/GuhfelipeBEZ/teste-josis" target="_blank">
-                        
-                        <button class="btn btn-primary">
-                            <span> conecte-se comigo </span>
-                            <i class="bi bi-arrow-down-right"> </i>
-                        </a>
-                    </button>
-                </div>
-                 </div><!-- fim descricao -->
-               
-            </div><!-- fim sobre1 -->
-            <div class="sobre-content2">
+          <aside class="col-lg-6 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Lorem ipsum dolor sit amet.</h3>
 
-                <div class="col1">
-                    <div class="row1">
-                        <h3> Formação </h3>
-                        <h4> IA e Machine Learning </h4>
-                        <span> Fev 2024 - Atualmente </span>
-    
-                        <div class="sobre-icones">
-                            <i class="bi bi-bank"> </i>
-                            <span>Cruzeiro do Sul </span>
-                        </div>
-    
-                        <div class="sobre-icones">
-                            <i class="bi bi-mortarboard"> </i>
-                            <span> Pós Graduação </span> 
-                        </div>
-                        <!-- nova formação  -->
-                        <h4> Sistemas para Internet </h4>
-                        <span> 2020 - 2022 </span>
-    
-                        <div class="sobre-icones">
-                            <i class="bi bi-bank"> </i>
-                            <span> FAM </span>
-                        </div>
-    
-                        <div class="sobre-icones">
-                            <i class="bi bi-award-fill"> </i>
-                            <span> Tecnólogo </span> 
-                        </div>
-                        
-                    </div> <!-- row1 -->
-    
-                    <div class="row2">
-                        <h3> Experiências </h3>
-                        
-                        <h4> Instrutor </h4>
-                        <span> Senai. Agosto 2012 - Atualmente. </span>
-                        <span> Instrutor de treinamentos e cursos, etc </span>
-    
-                        <ul class="sobre-lista">
-                            <li class="sobre-item"> Aulas presenciais </li>
-                            <li class="sobre-item"> Aulas EAD </li>
-                        </ul>
-    
-                    </div>
-                    
-                </div>  <!-- col 1 --> 
-    
-                <div class="col2">
-                
-                    <h3> Cursos </h3>
-                    <div class="accordion">
-    
-                        <div class="accordion-item active">
-    
-                            <button class="accordion-header start">
-                                <span> Desenvolvimento Front-End com Angular </span>
-                                <i class="bi bi-caret-down-fill"> </i>
-                            </button>
-    
-                            <div class="accordion-body">
-                                <p> Digital Innovation One. 68H. </p>
-                                <p> Desenvolvimento Front End com Angular e desenvolver habilidades práticas para construir aplicações web modernas e responsivas, enquanto treina recursos de Inteligência Artificial para se tornar um desenvolvedor completo.  </p>
-                            </div>              
-                        </div>
-    
-    
-                        <div class="accordion-item">
-    
-                            <button class="accordion-header">
-                                <span> Google Cloud Engineer </span>
-                                <i class="bi bi-caret-down-fill"> </i>
-                            </button>
-    
-                            <div class="accordion-body">
-                                <p> Senai. Fev 2024. 40H. </p>
-                                <p> Com a certificação Associate Cloud Engineer, é possível implantar aplicativos, monitorar operações e gerenciar soluções corporativas. Também é possível usar o Console do Google Cloud e a interface de linha de comando na realização de tarefas comuns baseadas na plataforma para a manutenção de uma ou mais soluções implantadas que usam os serviços gerenciados pelo Google ou autogerenciados no Google Cloud.
-                                </p>
-                            </div>              
-                        </div>
-    
-                        <div class="accordion-item">
-    
-                            <button class="accordion-header end">
-                                <span> Google Cloud Computing Foundations
-                                </span>
-                                <i class="bi bi-caret-down-fill"> </i>
-                            </button>
-    
-                            <div class="accordion-body end">
-                                <p> Senai. Fev 2024. 40H. </p>
-                                <p> Este curso fornece uma visão geral da computação em nuvem, maneiras de usar o Google Cloud e diferentes opções de computação.
-                                </p>
-                            </div>              
-                        </div>
-                    
-                    </div> <!-- Fim accordion -->
-                </div>  <!-- col 2 -->
-            </div> <!-- sobre-content2 -->
-    
-        </section>
+            <p class="fst-italic"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae hic dolor tempora
+              officia illo nisi voluptas ullam sint quaerat laborum, dignissimos incidunt ducimus modi sunt nobis ea rem
+              neque et?</p>
 
-         <section id="contato" class="contato">
+            <ul>
+              <li> <i class="bi bi-check-circle"> Visão ! </i>
+              </li>
+              <li> <i class="bi bi-check-circle"> missão ! </i>
+              </li>
+              <li> <i class="bi bi-check-circle"> Valores ! </i>
+              </li>
 
-            <h2>contato</h2>
-            <P> estou disponivel para orintações e novas conexões
-                contate-me via e-mail e conecte-se comigo das minhas redes sociais
-            </P>
-                <ul class="menu menu-social">
-            <li>
-                <a href="https://www.instagram.com/guh_felipe546/" target="_blank">
-                <i class="menu menu-icon bi bi-instagram"> </i>
-                <span> instagram</span> 
-            </a>
-            </li>
-               
-                    <li>
-                        <a href="https://www.instagram.com/guh_felipe546/" target="_blank">
-                        <i class="menu menu-icon bi bi-github"> </i>
-                        <span> github </span> 
-                    </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank"><!-- colocar o linkedin aqui -->
-                        <i class="menu menu-icon bi bi-linkedin"> </i>
-                        <span> linkedin</span> 
-                    </a>
-                    </li>
-                    
-                    <a href="mail:aiduduh@gmail.com">
-                        <button class="btn btn-primary">
-                        <span class="email"> aiduduh@gmail.com</span>
-                        </button>
-                        </a>
-              
             </ul>
-         </section><!-- fim contato -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem commodi, deserunt quod
+              doloremque ea placeat quam vel esse? Repellendus iste similique ipsa quia possimus eos cumque ratione
+              facere cupiditate.</p>
 
-         <footer>
-            <p>
-                &copy; 2024. portifolio desenvolvido para fins educativos com base nas 
-                aolas no <a href="https://sp.senai.br/unidade/leopoldina/" target="_blank"> SENAI leopoldina - SP </a>. 
-                Feito por <a href="https://github.com/GuhfelipeBEZ/teste-josis" target="_blank"> Gustavo Felipe </a>.
-            </p>
 
-         </footer>
-         <script src="js/script.js"></script>
+          </aside>
+
+        </div>
+      </div>
+    </section><!-- fim sobre -->
+
+
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2> por que nós</h2>
+          <p> por isso e aquilo </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4> qualidade 01</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi doloribus odio debitis
+                blanditiis, natus sit sunt, perspiciatis perferendis molestiae, praesentium laudantium? Explicabo
+                quaerat debitis nam laborum cum ullam error!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4> qualidade 02</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi doloribus odio debitis
+                blanditiis, natus sit sunt, perspiciatis perferendis molestiae, praesentium laudantium? Explicabo
+                quaerat debitis nam laborum cum ullam error!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4> qualidade 03</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi doloribus odio debitis
+                blanditiis, natus sit sunt, perspiciatis perferendis molestiae, praesentium laudantium? Explicabo
+                quaerat debitis nam laborum cum ullam error!</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Cardápio</h2>
+          <p> confira o nosso maravilhoso menu </p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+
+            <ul id="menu-filters">
+              <li data-filter="*" class="filters-active"> Todos </li>
+              <li data-filter=".filter-starters"> entradas</li>
+              <li data-filter=".filter-salads"> saladas</li>
+              <li data-filter=".filter-specialty"> jantar</li>
+              <li data-filter=".filter-sobremesa"> sobremesa</li>
+            </ul>
+          </div>
+        </div><!-- fim row -->
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- produtp 1 -->
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> lagosta com limão</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="img/menu/lobster-roll.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> lagosta ao molho</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> frango frito</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/bread-barrel.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> pão</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="img/menu/greek-salad.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> salada</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/mozzarella.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> salada caprese</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="img/menu/spinach-salad.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> salada</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="img/menu/caesar.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> salada com pão</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-sobremesa">
+            <img src="img/menu/cake.jpg" class="menu-img" alt="">
+
+            <div class="menu-content">
+              <a href="#"> bolo com cobertura de marmelada</a>
+              <span>$5.95</span>
+            </div>
+            <div class="menu-ingredientes">
+              lagosta e limao
+            </div>
+          </div>
+
+
+        </div> <!-- fim row menu  -->
+
+
+
+
+      </div>
+    </section>
+
+    <!-- pratos especiais -->
+
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2> pratos especiais </h2>
+          <p>confira nossas promoções</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <!-- menu pratos -->
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a href="#tab-1" class="nav-link active show" data-bs-toggle="tab">
+                  prato 1
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#tab-2" class="nav-link" data-bs-toggle="tab">
+                  prato 2
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#tab-3" class="nav-link" data-bs-toggle="tab">
+                  prato 3
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#tab-4" class="nav-link" data-bs-toggle="tab">
+                  prato 4
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#tab-5" class="nav-link" data-bs-toggle="tab">
+                  prato 5
+                </a>
+              </li>
+
+            </ul>
+          </div><!-- fim menu prato -->
+
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <!-- prato 1 -->
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> arroz com bobó de camarão </h3>
+                    <p class="fst-italic">esse é bom viu </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum nam dolores consequuntur
+                      enim dicta quasi necessitatibus eum recusandae amet unde aut pariatur, ipsum, vero sunt adipisci,
+                      aliquid corporis. Accusantium.</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="img/specials-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div> <!-- fim tab 1 -->
+
+              <!-- prato 2 -->
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> frutas no prato</h3>
+                    <p class="fst-italic">esse é bom viu </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum nam dolores consequuntur
+                      enim dicta quasi necessitatibus eum recusandae amet unde aut pariatur, ipsum, vero sunt adipisci,
+                      aliquid corporis. Accusantium.</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="img/specials-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div> <!-- fim tab 2-->
+
+
+              <!-- prato 3 -->
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> yakisoba</h3>
+                    <p class="fst-italic">esse é bom viu </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum nam dolores consequuntur
+                      enim dicta quasi necessitatibus eum recusandae amet unde aut pariatur, ipsum, vero sunt adipisci,
+                      aliquid corporis. Accusantium.</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="img/specials-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div> <!-- fim tab 3-->
+
+              <!-- prato 4 -->
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> queijo biscoito e tomate</h3>
+                    <p class="fst-italic">esse é bom viu </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum nam dolores consequuntur
+                      enim dicta quasi necessitatibus eum recusandae amet unde aut pariatur, ipsum, vero sunt adipisci,
+                      aliquid corporis. Accusantium.</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="img/specials-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div> <!-- fim tab 4 -->
+
+              <!-- prato 5 -->
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> fruta azul e mais coisas </h3>
+                    <p class="fst-italic">esse é bom viu </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum nam dolores consequuntur
+                      enim dicta quasi necessitatibus eum recusandae amet unde aut pariatur, ipsum, vero sunt adipisci,
+                      aliquid corporis. Accusantium.</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="img/specials-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div> <!-- fim tab 5 -->
+
+
+
+            </div><!-- fim content -->
+          </div>
+        </div><!-- fim row -->
+      </div>
+    </section>
+
+    <!-- eventos -->
+
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Eventos</h2>
+          <p>organize os seus eventos no nosso restaurante.</p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <!-- foto 1 -->
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="img/event-birthday.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>aniversario</h3>
+                  <div class="price">
+                    <p><span>$ 189</span></p>
+                  </div>
+
+                  <p class="fst-italic"> Lorem ipsum dolor sit amet.</p>
+
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo neque totam atque. Consequatur
+                    eum minima magni, perspiciatis ex, eveniet nihil quod asperiores nam quo, veritatis laudantium
+                    reprehenderit necessitatibus aliquid?</p>
+
+                </div> <!-- fim content -->
+
+              </div><!-- fim event itme -->
+
+            </div><!-- fim slider -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="img/event-private.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>aniversario</h3>
+                  <div class="price">
+                    <p><span>$ 189</span></p>
+                  </div>
+
+                  <p class="fst-italic"> Lorem ipsum dolor sit amet.</p>
+
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo neque totam atque. Consequatur
+                    eum minima magni, perspiciatis ex, eveniet nihil quod asperiores nam quo, veritatis laudantium
+                    reprehenderit necessitatibus aliquid?</p>
+
+                </div>
+
+              </div><!-- fim event itme -->
+
+            </div><!-- fim slider -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="img/event-custom.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>aniversario</h3>
+                  <div class="price">
+                    <p><span>$ 189</span></p>
+                  </div>
+
+                  <p class="fst-italic"> Lorem ipsum dolor sit amet.</p>
+
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+
+                    <li>
+                      <i class="bi bi-check-circle"></i>
+                      Lorem ipsum dolor sit amet.
+                    </li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo neque totam atque. Consequatur
+                    eum minima magni, perspiciatis ex, eveniet nihil quod asperiores nam quo, veritatis laudantium
+                    reprehenderit necessitatibus aliquid?</p>
+
+                </div>
+
+              </div><!-- fim event itme -->
+
+            </div><!-- fim slider -->
+
+          </div><!-- fim swiper-wrapper -->
+          <div class="swiper-pagination"></div>
+        </div> <!-- fim events slider -->
+
+
+      </div>
+    </section>
+
+    <!-- reserva -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2> reserva </h2>
+          <p>reserve sua mesa </p>
+        </div>
+
+        <!-- <form action="forms/book-a-table.php" method="post" > estrutura forms php -->
+        <form action="" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- nome -->
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+
+              <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:3"
+                data-msg="porfavor insira pelo menos 3 caracteries">
+              <div class="validate"></div>
+
+            </div><!-- fim do nome  -->
+
+            <!-- e-mail  -->
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+
+              <input type="email" class="form-control" name="email" id="email" placeholder="seu email" data-rule="email"
+                data-msg="porfavor digite um email valido ">
+              <div class="validate"></div>
+            </div>
+
+            <!-- telefone -->
+
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="seu telefone"
+                data-rule="minlen:11" data-msg="por favor digite o ddd e o numero completo ">
+              <div class="validate"></div>
+            </div>
+
+            <!-- data -->
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+
+              <input type="date" class="form-control" name="date" id="date">
+              <div class="validate"></div>
+            </div>
+
+
+            <!-- tipo do evento -->
+
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+
+              <select class="form-control" id="select">
+                <option selected> Escolha um evento ... </option>
+                <option value="1"> Aniversário </option>
+                <option value="2"> Casamento </option>
+                <option value="3"> Happy Hour</option>
+                <option value="4"> Confrataenização</option>
+              </select>
+            </div>
+
+            <!-- quantidade de pessoas  -->
+
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="número de pessoas"
+                data-rule="minlen:1" data-msg="selecione no minimo 01 pesssoa">
+              <div class="validate"></div>
+            </div>
+
+
+
+          </div><!-- fim row -->
+
+          <div class="form-group mt-3">
+            <textarea name="message" id="message" rows="5" placeholder="digite sua mensagem"
+              class="form-control"> </textarea>
+          </div>
+
+          <div class="mt-3">
+            <div class="loading">Carregando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">o seu pedido foi enviado. Ligaremos de volta ou enviaremos um email</div>
+          </div>
+
+          <div class="text-center">
+            <button type="submit"> reservar uma mesa </button>
+          </div>
+
+        </form>
+
+
+      </div> <!-- fim container -->
+    </section>
+
+
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>avaliações</h2>
+          <p>o que eles estao dizendo sobre nós.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="swiper-wrapper">
+
+            <!-- avaliação -->
+            <div class="swiper-slide">
+              <div class="testimonials-item">
+                <p>
+                  <i class='bx bxs-quote-alt-left'></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate quidem sapiente cumque quia
+                  numquam nobis voluptatem quod blanditiis, earum possimus eaque facere eos ea. Harum cumque assumenda
+                  veritatis fugit.
+                  <i class='bx bxs-quote-alt-right'></i>
+                </p>
+                <img src="img/testimonials/testimonials-1.jpg" alt="" class="testimonials-img ">
+                <h3> saul goodman</h3>
+                <h4> adivogado </h4>
+              </div>
+            </div>
+
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+              <div class="testimonials-item">
+                <p>
+                  <i class='bx bxs-quote-alt-left'></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate quidem sapiente cumque quia
+                  numquam nobis voluptatem quod blanditiis, earum possimus eaque facere eos ea. Harum cumque assumenda
+                  veritatis fugit.
+                  <i class='bx bxs-quote-alt-right'></i>
+                </p>
+                <img src="img/testimonials/testimonials-2.jpg" alt="" class="testimonials-img ">
+                <h3> mulan 2</h3>
+                <h4> desenpregada </h4>
+              </div>
+            </div>
+
+            <!-- slide 3 -->
+            <div class="swiper-slide">
+              <div class="testimonials-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate quidem sapiente cumque quia
+                  numquam nobis voluptatem quod blanditiis, earum possimus eaque facere eos ea. Harum cumque assumenda
+                  veritatis fugit.
+                  <i class='bx bxs-quote-alt-right'></i>
+                </p>
+                <img src="img/testimonials/testimonials-3.jpg" alt="" class="testimonials-img ">
+                <h3> roberta </h3>
+                <h4> administradora </h4>
+              </div>
+            </div>
+
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+              <div class="testimonials-item">
+                <p>
+                  <i class='bx bxs-quote-alt-left'></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate quidem sapiente cumque quia
+                  numquam nobis voluptatem quod blanditiis, earum possimus eaque facere eos ea. Harum cumque assumenda
+                  veritatis fugit.
+                  <i class='bx bxs-quote-alt-right'></i>
+                </p>
+                <img src="img/testimonials/testimonials-4.jpg" alt="" class="testimonials-img ">
+                <h3> luiz aufusto </h3>
+                <h4> cantor </h4>
+              </div>
+            </div>
+
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+              <div class="testimonials-item">
+                <p>
+                  <i class='bx bxs-quote-alt-left'></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate quidem sapiente cumque quia
+                  numquam nobis voluptatem quod blanditiis, earum possimus eaque facere eos ea. Harum cumque assumenda
+                  veritatis fugit.
+                  <i class='bx bxs-quote-alt-right'></i>
+                </p>
+                <img src="img/testimonials/testimonials-5.jpg" alt="" class="testimonials-img ">
+                <h3> carlos eduardo </h3>
+                <h4> vendedor de repolho </h4>
+              </div>
+            </div>
+
+
+
+          </div><!-- fim swiper wrapper -->
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"> </i>
+  </a>
+
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
-
-
